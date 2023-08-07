@@ -42,32 +42,20 @@ export default async function Page({ params }: { params: { slug: string } }) {
         </Link>
       </div>
 
-      <div className="container md:grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 my-10">
+      <div className="container flex flex-wrap  1 gap-10 my-10">
         {dataGambar.map((item) => (
           <div
             key={item.id_galeri}
-            className="h-40 bg-white shadow-md rounded overflow-hidden max-w-sm mx-auto my-5 sm:my-0 cursor-pointer"
+            className="h-auto bg-slate-500 shadow-md rounded mx-auto cursor-pointer"
           >
             <AlertDialog>
               <AlertDialogTrigger asChild>
-                <Image
-                  src={item.path}
-                  alt="Image"
-                  className="w-full h-40 object-cover"
-                  width={500}
-                  height={500}
-                />
+                <Image src={item.path} alt="Image" width={300} height={300} />
               </AlertDialogTrigger>
               <AlertDialogContent>
                 <AlertDialogHeader>
                   <AlertDialogTitle>{item.nama}</AlertDialogTitle>
-                  <Image
-                    src={item.path}
-                    alt="Image"
-                    className="w-full h-40 object-cover"
-                    width={500}
-                    height={500}
-                  />
+                  <Image src={item.path} alt="Image" width={500} height={500} />
                   <AlertDialogDescription>{item.konten}</AlertDialogDescription>
                 </AlertDialogHeader>
                 <AlertDialogFooter>

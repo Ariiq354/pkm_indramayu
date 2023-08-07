@@ -48,78 +48,69 @@ const HubungiKami = () => {
           Hubungi Kami
         </h1>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-[2%] px-[4%] justify-center pt-10 md:pt-24">
-        <div className=" mx-auto bg-white rounded-lg shadow-lg overflow-hidden w-full">
-          <div className="flex justify-center p-3 bg-red-500 rounded-t-lg items-center">
-            <h5 className="card-title text-2xl font-bold text-white mb-2">
-              KONTAK
-            </h5>
+      <div className="container  rounded-lg p-12 gap-12 my-24 grid lg:grid-cols-2 grid-cols-1">
+        <div className="flex flex-col w-full shadow-lg">
+          <div className="flex p-3 bg-red-500 rounded-t-lg justify-center">
+            <h5 className="text-2xl font-semibold text-white">Kontak</h5>
           </div>
-          <div className="card-body p-[33px] bg-red-100 h-full items-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-[18px]">
-              <div className="flex flex-col items-center p-8 gap-4 bg-white rounded-lg shadow-md justify-between">
-                <Link href="https://wa.me/6289605834601">
-                  <Image
-                    src="/social/whatsapp.png"
-                    width={40}
-                    height={40}
-                    alt="Phone Icon"
-                  />
-                </Link>
-              </div>
-              <div className="flex flex-col items-center p-8 gap-4 bg-white rounded-lg shadow-md justify-between">
-                <Link href="mailto:realgoldcraft@gmail.com">
-                  <Image
-                    src="/social/email.png"
-                    width={40}
-                    height={40}
-                    alt="Email Icon"
-                  />
-                </Link>
-              </div>
-              <div className="flex flex-col items-center p-8 gap-4 bg-white rounded-lg shadow-md">
-                <Link
-                  href="https://www.instagram.com/puskesmas_kertasemaya/"
-                  target="_blank"
-                  className="text-blue-500"
-                >
-                  <Image
-                    src="/social/instagram.png"
-                    width={40}
-                    height={40}
-                    alt="Instagram Icon"
-                  />
-                </Link>
-              </div>
-              <div className="flex flex-col items-center p-8 gap-4 bg-white rounded-lg shadow-md">
-                <Link
-                  href="https://www.facebook.com/puskesmas.kertasemaya.7"
-                  target="_blank"
-                  className="text-blue-500 text-center"
-                >
-                  <Image
-                    src="/social/facebook.jpg"
-                    width={40}
-                    height={40}
-                    alt="Facebook Icon"
-                  />
-                </Link>
-              </div>
+          <div className="p-6 bg-red-100 rounded-b-lg w-full h-full grid gap-6 grid-cols-1 md:grid-cols-2">
+            <div className="bg-white p-4 flex justify-center items-center rounded-md shadow-md">
+              <Link href="https://wa.me/6289605834601">
+                <Image
+                  src="/social/whatsapp.png"
+                  width={50}
+                  height={50}
+                  alt=""
+                ></Image>
+              </Link>
+            </div>
+            <div className="bg-white p-4 flex justify-center items-center rounded-md shadow-md">
+              <Link href="mailto:realgoldcraft@gmail.com">
+                <Image
+                  src="/social/email.png"
+                  width={50}
+                  height={50}
+                  alt=""
+                ></Image>
+              </Link>
+            </div>
+            <div className="bg-white p-4 flex justify-center items-center rounded-md shadow-md">
+              <Link
+                target="_blank"
+                href="https://www.instagram.com/puskesmas_kertasemaya/"
+              >
+                <Image
+                  src="/social/instagram.png"
+                  width={50}
+                  height={50}
+                  alt=""
+                ></Image>
+              </Link>
+            </div>
+            <div className="bg-white p-4 flex justify-center items-center rounded-md shadow-md">
+              <Link
+                target="_blank"
+                href="https://www.facebook.com/puskesmas.kertasemaya.7"
+              >
+                <Image
+                  src="/social/facebook.jpg"
+                  width={50}
+                  height={50}
+                  alt=""
+                ></Image>
+              </Link>
             </div>
           </div>
         </div>
-
-        <div className=" mx-auto bg-white rounded-lg shadow-lg overflow-hidden w-full">
-          <div className="flex justify-center items-start p-3 bg-red-500 rounded-t-lg">
-            <h5 className="card-title text-2xl font-semibold text-white mb-2">
-              LOKASI
-            </h5>
+        <div className="flex flex-col w-full shadow-lg">
+          <div className="flex p-3 bg-red-500 rounded-t-lg justify-center">
+            <h5 className="text-2xl font-semibold text-white">LOKASI</h5>
           </div>
-          <div className="card-body p-6 bg-red-100">
+          <div className="p-6 bg-red-100 rounded-b-lg w-full h-full">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.8571906123275!2d108.34954167490773!3d-6.539712193453122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6ec3724e2c674d%3A0xe7e272e1d2c60818!2sPuskesmas%20Kertasemaya!5e0!3m2!1sid!2sid!4v1691070672378!5m2!1sid!2sid"
               width="100%"
-              height="450"
+              height="500"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -129,9 +120,9 @@ const HubungiKami = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-1 py-10 items-center justify-center mt-16 bg-red-100 bg-opacity-70 rounded-xl px-[4%] mx-[4%] mb-24">
+      <div className="container bg-red-100 rounded-lg p-12 gap-12 flex items-center flex-col mb-24 shadow-lg">
         <div className="text-center">
-          <h1 className="text-3xl md:text-4xl font-bold text-red-700 items-center justify-center md:mb-8">
+          <h1 className="text-3xl md:text-4xl font-bold text-red-700 items-center justify-center">
             Kritik & Saran
           </h1>
         </div>
@@ -319,26 +310,16 @@ const HubungiKami = () => {
         </Form>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-1 py-10 items-center justify-center mt-16 bg-red-500 bg-opacity-80 rounded-xl px-[4%] mx-[4%] mb-24">
+      <div className="container bg-red-500 bg-opacity-80 rounded-lg p-12 gap-12 flex items-center flex-col mb-24 shadow-lg">
         <div className="text-center">
-          <h1 className="text-3xl md:text-4xl font-bold text-white items-center justify-center md:mb-8">
+          <h1 className="text-3xl md:text-4xl font-bold text-white">
             Feedback
           </h1>
         </div>
-        <div
-          className="my-1 pt-7 md:py-7"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
+        <div className="flex justify-center items-center w-full max-w-4xl">
           <iframe
-            className="rounded-lg"
+            className="rounded-lg h-[500px] w-full"
             src="https://docs.google.com/presentation/d/e/2PACX-1vQLJhR-Qee7_t81seKCxLYM9siCBu3XlO25DNWadOgRNTE7iK5Bvfu1sagr2vwSDg8THU6MKCqwT7R2/embed?start=true&loop=true&delayms=30000"
-            frameBorder="0"
-            width="900"
-            height="500"
             allowFullScreen={true}
           ></iframe>
         </div>

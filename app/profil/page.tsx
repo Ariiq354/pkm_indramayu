@@ -67,7 +67,8 @@ export default function page() {
           </div>
           <div className="card-body p-4">
             <p className="card-text text-gray-800">
-              <b>KERTAS</b> KERJA KERAS, KERJA CERDAS, KERJA TUNTAS
+              <b>KERTAS</b>
+              <br /> KERJA KERAS, KERJA CERDAS, KERJA TUNTAS
             </p>
             <ol className="list-decimal pl-6 mt-4">
               <li className="mb-2">

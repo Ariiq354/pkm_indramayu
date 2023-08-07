@@ -57,22 +57,22 @@ export default function Navbar() {
             <NavigationMenuTrigger>Informasi</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="p-2 w-[250px] grid">
-                <Link href="pelayanan24" className="rounded w-full">
+                <Link href="/pelayanan24" className="rounded w-full">
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Pelayanan 24 Jam
                   </NavigationMenuLink>
                 </Link>
-                <Link href="pengembangan" className="rounded w-full">
+                <Link href="/pengembangan" className="rounded w-full">
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Pelayanan Pengembangan
                   </NavigationMenuLink>
                 </Link>
-                <Link href="esensial" className="rounded w-full">
+                <Link href="/esensial" className="rounded w-full">
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Pelayanan Essensial
                   </NavigationMenuLink>
                 </Link>
-                <Link href="inovasi" className="rounded w-full">
+                <Link href="/inovasi" className="rounded w-full">
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Inovasi Puskesmas
                   </NavigationMenuLink>

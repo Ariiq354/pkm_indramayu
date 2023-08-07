@@ -107,7 +107,7 @@ export default function Pelayanan24() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/pelayanan24/kia_thumb.jpg"
+                  src="/pelayanan24/kb_thumb.jpg"
                   alt=""
                   width={300}
                   height={300}
@@ -141,7 +141,7 @@ export default function Pelayanan24() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/pelayanan24/kia_thumb.jpg"
+                  src="/pelayanan24/konselingKb_thumb.jpeg"
                   alt=""
                   width={300}
                   height={300}
@@ -175,24 +175,7 @@ export default function Pelayanan24() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/pelayanan24/hiv_thumb.jpg"
-                  alt=""
-                  width={300}
-                  height={300}
-                  className="rounded-md"
-                ></Image>
-                <CardTitle>Layanan HIV / AIDS</CardTitle>
-                <CardDescription>LAYANAN KONSELING TERPADU</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p>Senin - Sabtu</p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <Image
-                  src="/pelayanan24/hiv_thumb.jpg"
+                  src="/pelayanan24/haji_thumb.jpg"
                   alt=""
                   width={300}
                   height={300}

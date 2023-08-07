@@ -71,9 +71,9 @@ export default function Home() {
           <div className="">
             <div className="bg-red-200 text-red-600 p-4 flex flex-col gap-4">
               <div className="font-bold text-xl flex justify-between">
-                <div>Hotline Puskesmas</div>
+                <div>Layanan Call Center 24 Jam</div>
                 <div>
-                  <Link href="https://wa.me/6289605834601" target="_blank">
+                  <Link href="https://wa.me/6282118894770" target="_blank">
                     <Image
                       src="/social/whatsapp.png"
                       width={30}
@@ -83,19 +83,23 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              <div className="font-bold">
-                Layanan Hotline dari jam 7.30 – 14.30 WIB
-              </div>
             </div>
           </div>
           <div className="">
             <div className="bg-red-200 text-red-600 flex-col flex p-12 font-bold">
               <div className="font-bold mb-4 text-2xl">Jam Pelayanan</div>
               <div className="flex justify-between border-red-600 border-b-2 text-lg">
-                <div>Senin – Sabtu</div>
-                <div>07.30 -14.30</div>
+                <div>Senin – Kamis</div>
+                <div>07.30 -14.00 WIB</div>
               </div>
-              <div className="text-lg">Hari Minggu dan Tanggal Merah Libur</div>
+              <div className="flex justify-between border-red-600 border-b-2 text-lg">
+                <div>Jumat</div>
+                <div>07.30 -11.30 WIB</div>
+              </div>
+              <div className="flex justify-between border-red-600 text-lg">
+                <div>Sabtu</div>
+                <div>07.30 -12.00 WIB</div>
+              </div>
             </div>
           </div>
         </div>
