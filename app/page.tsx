@@ -16,14 +16,7 @@ import { IoWoman } from "react-icons/io5"; // ikon ibu
 import { GiMedicines } from "react-icons/gi";
 
 import { Button } from "@/components/ui/button";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 export default function Home() {
   return (
@@ -41,7 +34,9 @@ export default function Home() {
             Web informasi, Data, Edukasi dan Umpan balik Kertasemaya
           </h1>
           <h1 className="flex gap-6 items-center">
-            <Button className="">Skrining BPJS Kesehatan</Button>
+            <Link href="https://webskrining.bpjs-kesehatan.go.id/skrining/index.html">
+              <Button className="bg-amber-900">Skrining BPJS Kesehatan</Button>
+            </Link>
             {/* <Link
               className="bg-red-900 border-white border-2 rounded-full p-1 text-white ml-6"
               href="https://www.youtube.com/@PuskesmasKertasemaya/"
@@ -70,55 +65,27 @@ export default function Home() {
       </div>
 
       <div className="container">
-        <div className="lg:absolute lg:translate-y-[-200px] flex md:flex-row flex-col items-center gap-4 mt-4">
+        <div className="lg:absolute lg:translate-y-[-200px] lg:translate-x-[-80px] flex flex-col gap-4 mt-4">
           <div className="">
-            <div className="bg-red-700 text-white p-4 flex flex-col gap-4">
+            <div className="bg-amber-900 text-white p-4 flex flex-col gap-4">
               <div className="font-bold text-xl flex justify-between">
                 <div>Hotline Puskesmas</div>
                 <div>
-                  <Image
-                    src="/social/whatsapp.png"
-                    width={30}
-                    height={30}
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                <FaWhatsappSquare size={40} />
-                <div className="bg-red-900 p-2 px-6 rounded-full">
-                  Informasi Kesehatan Jiwa
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                <FaWhatsappSquare size={40} />
-                <div className="bg-red-900 p-2 px-6 rounded-full">
-                  Informasi Vaksin & Pelayanan KIA
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                <FaWhatsappSquare size={40} />
-                <div className="bg-red-900 p-2 px-6 rounded-full">
-                  Informasi COVID-19
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                <FaWhatsappSquare size={40} />
-                <div className="bg-red-900 p-2 px-6 rounded-full">
-                  Informasi UHC dan Poli Gigi
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                <FaWhatsappSquare size={40} />
-                <div className="bg-red-900 p-2 px-6 rounded-full">
-                  Informasi Umum / Rujukan
+                  <Link href="https://wa.me/6289605834601" target="_blank">
+                    <Image
+                      src="/social/whatsapp.png"
+                      width={30}
+                      height={30}
+                      alt=""
+                    />
+                  </Link>
                 </div>
               </div>
               <div>Layanan Hotline dari jam 7.30 – 14.30 WIB</div>
             </div>
           </div>
           <div className="">
-            <div className="bg-red-900 text-white flex-col flex p-12">
+            <div className="bg-amber-900 text-white flex-col flex p-12">
               <div className="font-bold mb-4 text-2xl">Jam Pelayanan</div>
               <div className="flex justify-between border-white border-b-2 text-lg">
                 <div>Senin – Sabtu</div>
