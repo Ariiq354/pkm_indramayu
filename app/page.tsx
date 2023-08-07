@@ -35,7 +35,9 @@ export default function Home() {
           </h1>
           <h1 className="flex gap-6 items-center">
             <Link href="https://webskrining.bpjs-kesehatan.go.id/skrining/index.html">
-              <Button className="bg-amber-900">Skrining BPJS Kesehatan</Button>
+              <Button className="bg-red-200 text-red-600 font-bold hover:bg-red-600 hover:text-white">
+                Skrining BPJS Kesehatan
+              </Button>
             </Link>
             {/* <Link
               className="bg-red-900 border-white border-2 rounded-full p-1 text-white ml-6"
@@ -67,7 +69,7 @@ export default function Home() {
       <div className="container">
         <div className="lg:absolute lg:translate-y-[-200px] lg:translate-x-[-80px] flex flex-col gap-4 mt-4">
           <div className="">
-            <div className="bg-amber-900 text-white p-4 flex flex-col gap-4">
+            <div className="bg-red-200 text-red-600 p-4 flex flex-col gap-4">
               <div className="font-bold text-xl flex justify-between">
                 <div>Hotline Puskesmas</div>
                 <div>
@@ -81,13 +83,15 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              <div>Layanan Hotline dari jam 7.30 – 14.30 WIB</div>
+              <div className="font-bold">
+                Layanan Hotline dari jam 7.30 – 14.30 WIB
+              </div>
             </div>
           </div>
           <div className="">
-            <div className="bg-amber-900 text-white flex-col flex p-12">
+            <div className="bg-red-200 text-red-600 flex-col flex p-12 font-bold">
               <div className="font-bold mb-4 text-2xl">Jam Pelayanan</div>
-              <div className="flex justify-between border-white border-b-2 text-lg">
+              <div className="flex justify-between border-red-600 border-b-2 text-lg">
                 <div>Senin – Sabtu</div>
                 <div>07.30 -14.30</div>
               </div>

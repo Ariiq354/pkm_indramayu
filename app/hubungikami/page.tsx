@@ -58,55 +58,51 @@ const HubungiKami = () => {
           <div className="card-body p-[33px] bg-red-100 h-full items-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-[18px]">
               <div className="flex flex-col items-center p-8 gap-4 bg-white rounded-lg shadow-md justify-between">
-                <h1 className="font-bold mb-2 text-lg pb-1">Telepon & WA</h1>
-                <Image
-                  src="/social/whatsapp.png"
-                  width={40}
-                  height={40}
-                  alt="Phone Icon"
-                />
-                <div>0821-1889-4770</div>
+                <Link href="https://wa.me/6289605834601">
+                  <Image
+                    src="/social/whatsapp.png"
+                    width={40}
+                    height={40}
+                    alt="Phone Icon"
+                  />
+                </Link>
               </div>
               <div className="flex flex-col items-center p-8 gap-4 bg-white rounded-lg shadow-md justify-between">
-                <h1 className="font-bold text-lg">Email</h1>
-                <Image
-                  src="/social/email.png"
-                  width={40}
-                  height={40}
-                  alt="Email Icon"
-                />
-                <div>puskes.kertasemaya@gmail.com</div>
+                <Link href="mailto:realgoldcraft@gmail.com">
+                  <Image
+                    src="/social/email.png"
+                    width={40}
+                    height={40}
+                    alt="Email Icon"
+                  />
+                </Link>
               </div>
               <div className="flex flex-col items-center p-8 gap-4 bg-white rounded-lg shadow-md">
-                <h1 className="font-bold text-lg">Instagram</h1>
-                <Image
-                  src="/social/instagram.png"
-                  width={40}
-                  height={40}
-                  alt="Instagram Icon"
-                />
                 <Link
                   href="https://www.instagram.com/puskesmas_kertasemaya/"
                   target="_blank"
                   className="text-blue-500"
                 >
-                  puskesmas_kertasemaya
+                  <Image
+                    src="/social/instagram.png"
+                    width={40}
+                    height={40}
+                    alt="Instagram Icon"
+                  />
                 </Link>
               </div>
               <div className="flex flex-col items-center p-8 gap-4 bg-white rounded-lg shadow-md">
-                <h1 className="font-bold text-lg">Facebook</h1>
-                <Image
-                  src="/social/facebook.jpg"
-                  width={40}
-                  height={40}
-                  alt="Facebook Icon"
-                />
                 <Link
                   href="https://www.facebook.com/puskesmas.kertasemaya.7"
                   target="_blank"
                   className="text-blue-500 text-center"
                 >
-                  Uptd Puskesmas Kertasemaya
+                  <Image
+                    src="/social/facebook.jpg"
+                    width={40}
+                    height={40}
+                    alt="Facebook Icon"
+                  />
                 </Link>
               </div>
             </div>
