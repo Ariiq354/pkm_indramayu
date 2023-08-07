@@ -47,7 +47,7 @@ export default function Home() {
             </Link> */}
             <Dialog>
               <DialogTrigger className="bg-red-900 border-white border-2 rounded-full p-1 text-white ml-6">
-                <AiFillPlayCircle size={40} classname="border-2 border-black" />
+                <AiFillPlayCircle size={40} className="border-2 border-black" />
               </DialogTrigger>
               <DialogContent className="w-[64vw] h-[36vw]">
                 <iframe
