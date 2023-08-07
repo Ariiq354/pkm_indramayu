@@ -141,7 +141,7 @@ export default function Pelayanan24() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/pelayanan24/konselingKb_thumb.jpeg"
+                  src="/pelayanan24/kb_thumb.jpeg"
                   alt=""
                   width={300}
                   height={300}
@@ -277,7 +277,7 @@ export default function Pelayanan24() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/pelayanan24/ambulance_thumb.jpg"
+                  src="/pelayanan24/gawat_thumb.jpg"
                   alt=""
                   width={300}
                   height={300}
