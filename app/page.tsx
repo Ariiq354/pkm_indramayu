@@ -43,14 +43,13 @@ export default function Home() {
               <DialogTrigger className="bg-red-900 border-white border-2 rounded-full p-1 text-white md:ml-6">
                 <AiFillPlayCircle size={40} />
               </DialogTrigger>
-              <DialogContent className="w-[64vw] h-[36vw]">
+              <DialogContent className="w-[64vw] md:h-[36vw]">
                 <iframe
                   width="100%"
                   height="100%"
                   src="https://www.youtube.com/embed/QT1pgLjK4iI"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
                 ></iframe>
               </DialogContent>
             </Dialog>
