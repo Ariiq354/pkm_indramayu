@@ -12,7 +12,13 @@ export default function page() {
       </div>
 
       <div className="flex justify-center mt-10">
-        <Image src="/profil/foto.jpeg" width={700} height={700} alt=""></Image>
+        <Image
+          src="/profil/foto.jpeg"
+          width={700}
+          height={700}
+          alt=""
+          className="w-auto h-auto"
+        ></Image>
       </div>
 
       <div className="bg-info py-8 lg:py-10 mb-8 my-16 bg-red-100 rounded">
@@ -118,7 +124,7 @@ export default function page() {
             alt="data demografis, dll"
             width={1200}
             height={1200}
-            className="rounded-lg shadow-md"
+            className="rounded-lg shadow-md w-auto h-auto"
           />
         </div>
       </div>
@@ -134,7 +140,7 @@ export default function page() {
             alt="struktur organisasi"
             width={800}
             height={1200}
-            className="rounded-lg shadow-md"
+            className="rounded-lg shadow-md w-auto h-auto"
           />
         </div>
       </div>

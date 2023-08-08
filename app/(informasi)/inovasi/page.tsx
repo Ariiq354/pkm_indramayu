@@ -14,6 +14,7 @@ export default function Inovasi() {
           alt=""
           width={1000}
           height={1000}
+          className="w-auto h-auto"
         ></Image>
       </div>
     </>

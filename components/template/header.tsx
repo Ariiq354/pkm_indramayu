@@ -19,8 +19,8 @@ export default function Header() {
         </div>
         Jalan By Pass, Tulungagung
       </div>
-      <div className=" hidden md:flex">
-        <div className=" p-1 text-base mr-12 ">
+      <div className=" hidden md:flex items-center">
+        <div className=" p-1 text-base mr-12 flex items-center">
           <Link
             href="https://www.facebook.com/puskesmas.kertasemaya.7"
             className="inline-flex items-center mr-6"
@@ -52,7 +52,7 @@ export default function Header() {
           >
             <Image
               src="/social/youtube.png"
-              width={20}
+              width={25}
               height={20}
               alt="Youtube Icon"
             />

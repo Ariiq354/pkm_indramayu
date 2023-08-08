@@ -26,7 +26,6 @@ export default async function Berita() {
               className="w-full h-40 object-cover"
               width={500}
               height={500}
-              layout="responsive"
             />
 
             <div className="p-4">

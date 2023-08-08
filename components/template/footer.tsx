@@ -74,6 +74,7 @@ export default function Footer() {
                   width={50}
                   height={50}
                   alt=""
+                  className="w-auto h-auto"
                 />
               </Link>
             </div>

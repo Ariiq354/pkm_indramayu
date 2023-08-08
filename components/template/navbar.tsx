@@ -33,7 +33,7 @@ export default function Navbar() {
         <div className="inline-flex items-center text-primary-color md:ml-10 ml-5">
           <Image
             src="/navbar/lambang.png"
-            className="mr-2"
+            className="mr-2 w-auto h-auto"
             alt=""
             width={40}
             height={40}
