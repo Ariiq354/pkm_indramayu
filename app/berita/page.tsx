@@ -13,7 +13,6 @@ export default async function Berita() {
           Berita Puskesmas
         </h1>
       </div>
-
       <div className="container md:grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 my-10">
         {data.map((item) => (
           <div
@@ -23,9 +22,10 @@ export default async function Berita() {
             <Image
               src={item.path_image}
               alt="Image"
-              className="w-full h-40 object-cover"
+              className="w-full h-[35vh] bg-cover image"
               width={500}
               height={500}
+              layout=""
             />
 
             <div className="p-4">
