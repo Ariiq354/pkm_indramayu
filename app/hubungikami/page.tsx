@@ -49,13 +49,13 @@ const HubungiKami = () => {
         </h1>
       </div>
       <div className="container  rounded-lg p-12 gap-12 my-24 grid lg:grid-cols-2 grid-cols-1">
-        <div className="flex flex-col w-full shadow-lg">
+        <div className="flex flex-col w-full rounded-lg shadow-lg">
           <div className="flex p-3 bg-red-500 rounded-t-lg justify-center">
             <h5 className="text-2xl font-semibold text-white">Kontak</h5>
           </div>
           <div className="p-6 bg-red-100 rounded-b-lg w-full h-full grid gap-6 grid-cols-1 md:grid-cols-2">
             <div className="bg-white p-4 flex justify-center items-center rounded-md shadow-md">
-              <Link href="https://wa.me/6289605834601">
+              <Link href="https://wa.me/6282118894770">
                 <Image
                   src="/social/whatsapp.png"
                   width={50}
@@ -65,7 +65,7 @@ const HubungiKami = () => {
               </Link>
             </div>
             <div className="bg-white p-4 flex justify-center items-center rounded-md shadow-md">
-              <Link href="mailto:realgoldcraft@gmail.com">
+              <Link href="mailto:puskes.kertasemaya@gmail.com">
                 <Image
                   src="/social/email.png"
                   width={50}
@@ -102,7 +102,7 @@ const HubungiKami = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col w-full shadow-lg">
+        <div className="flex flex-col w-full rounded-lg shadow-lg">
           <div className="flex p-3 bg-red-500 rounded-t-lg justify-center">
             <h5 className="text-2xl font-semibold text-white">LOKASI</h5>
           </div>
