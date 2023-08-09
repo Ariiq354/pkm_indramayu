@@ -54,7 +54,8 @@ const HubungiKami = () => {
             <h5 className="text-2xl font-semibold text-white">Kontak</h5>
           </div>
           <div className="p-6 bg-red-100 rounded-b-lg w-full h-full grid gap-6 grid-cols-1 md:grid-cols-2">
-            <div className="bg-white p-4 flex justify-center items-center rounded-md shadow-md">
+            <div className="bg-white flex flex-col font-bold gap-6 justify-center items-center rounded-md shadow-md">
+              <div>Whatsapp</div>
               <Link href="https://wa.me/6282118894770">
                 <Image
                   src="/social/whatsapp.png"
@@ -63,9 +64,14 @@ const HubungiKami = () => {
                   alt=""
                 ></Image>
               </Link>
+              <div>0821-1889-4770</div>
             </div>
-            <div className="bg-white p-4 flex justify-center items-center rounded-md shadow-md">
-              <Link href="mailto:puskes.kertasemaya@gmail.com">
+            <div className="bg-white flex flex-col font-bold gap-6 justify-center items-center rounded-md shadow-md">
+              <div>Email</div>
+              <Link
+                className="h-[50px] flex items-center"
+                href="mailto:puskes.kertasemaya@gmail.com"
+              >
                 <Image
                   src="/social/email.png"
                   width={50}
@@ -73,8 +79,10 @@ const HubungiKami = () => {
                   alt=""
                 ></Image>
               </Link>
+              <div>puskes.kertasemaya@gmail.com</div>
             </div>
-            <div className="bg-white p-4 flex justify-center items-center rounded-md shadow-md">
+            <div className="bg-white flex flex-col font-bold gap-6 justify-center items-center rounded-md shadow-md">
+              <div>Instagram</div>
               <Link
                 target="_blank"
                 href="https://www.instagram.com/puskesmas_kertasemaya/"
@@ -86,8 +94,10 @@ const HubungiKami = () => {
                   alt=""
                 ></Image>
               </Link>
+              <div>puskesmas_kertasemaya</div>
             </div>
-            <div className="bg-white p-4 flex justify-center items-center rounded-md shadow-md">
+            <div className="bg-white flex flex-col font-bold gap-6 justify-center items-center rounded-md shadow-md">
+              <div>Facebook</div>
               <Link
                 target="_blank"
                 href="https://www.facebook.com/puskesmas.kertasemaya.7"
@@ -99,6 +109,7 @@ const HubungiKami = () => {
                   alt=""
                 ></Image>
               </Link>
+              <div>Puskesmas Kertasemaya</div>
             </div>
           </div>
         </div>
