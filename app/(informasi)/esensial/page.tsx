@@ -8,13 +8,13 @@ import {
 } from "@/components/ui/card";
 import Image from "next/image";
 
-export default function Inovasi() {
+export default function Esensial() {
   return (
     <>
       <div className="bg-red-100 bg-opacity-60">
         <div className="w-full h-[40vh] image bg-cover px-24">
           <h1 className="md:text-6xl text-4xl font-bold h-full flex md:justify-start justify-center items-center text-center text-red-900">
-            Layanan Esensial
+            Pelayanan UKM Essensial
           </h1>
         </div>
 
@@ -23,7 +23,7 @@ export default function Inovasi() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/esensial/promosi_thumb.jpg"
+                  src="/esensial/promosi.jpeg"
                   alt=""
                   width={300}
                   height={300}
@@ -32,15 +32,12 @@ export default function Inovasi() {
                 <CardTitle>Promosi Kesehatan</CardTitle>
                 <CardDescription>UKM ESSENSIAL</CardDescription>
               </CardHeader>
-              <CardContent>
-                <p>Senin - Sabtu</p>
-              </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
                 <Image
-                  src="/esensial/promosi_thumb.jpg"
+                  src="/esensial/lingkungan.jpg"
                   alt=""
                   width={300}
                   height={300}
@@ -49,15 +46,12 @@ export default function Inovasi() {
                 <CardTitle>Kesehatan Lingkungan</CardTitle>
                 <CardDescription>UKM ESSENSIAL</CardDescription>
               </CardHeader>
-              <CardContent>
-                <p>Senin - Sabtu</p>
-              </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
                 <Image
-                  src="/esensial/kia_thumb.jpg"
+                  src="/esensial/kia.jpeg"
                   alt=""
                   width={300}
                   height={300}
@@ -66,15 +60,12 @@ export default function Inovasi() {
                 <CardTitle>Kesehatan KIA</CardTitle>
                 <CardDescription>UKM ESSENSIAL</CardDescription>
               </CardHeader>
-              <CardContent>
-                <p>Senin - Sabtu</p>
-              </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
                 <Image
-                  src="/esensial/gizi_thumb.jpg"
+                  src="/esensial/gizi.jpg"
                   alt=""
                   width={300}
                   height={300}
@@ -83,23 +74,22 @@ export default function Inovasi() {
                 <CardTitle>Gizi</CardTitle>
                 <CardDescription>UKM ESSENSIAL</CardDescription>
               </CardHeader>
-              <CardContent>
-                <p>Senin - Sabtu</p>
-              </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
                 <Image
-                  src="/esensial/promosi_thumb.jpg"
+                  src="/esensial/menular.jpg"
                   alt=""
                   width={300}
                   height={300}
                   className="rounded-md"
                 ></Image>
 
-                <CardTitle>Pencegahan dan Penularan Penyakit (P2P)</CardTitle>
-                <CardDescription>Penyakit Menular</CardDescription>
+                <CardTitle>
+                  Pengendalian dan Pencegahan Penyakit Menular (P2PM)
+                </CardTitle>
+                <CardDescription>UKM Esensial</CardDescription>
               </CardHeader>
               <CardContent className="wrap">
                 <p>
@@ -112,15 +102,17 @@ export default function Inovasi() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/esensial/promosi_thumb.jpg"
+                  src="/esensial/tidakMenular.jpg"
                   alt=""
                   width={300}
                   height={300}
                   className="rounded-md"
                 ></Image>
 
-                <CardTitle>Pencegahan dan Penularan Penyakit (P2P)</CardTitle>
-                <CardDescription>Penyakit Tidak Menular</CardDescription>
+                <CardTitle>
+                  Pencegahan dan Pengendalian Penyakit Tidak Menular (P2PTM)
+                </CardTitle>
+                <CardDescription>UKM Esensial</CardDescription>
               </CardHeader>
               <CardContent className="font-2xl">
                 <p>PTM (Penyakit Tidak Menular), Jiwa, Indera</p>

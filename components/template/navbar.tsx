@@ -69,7 +69,7 @@ export default function Navbar() {
                 </Link>
                 <Link href="/esensial" className="rounded w-full">
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Pelayanan Essensial
+                    Pelayanan UKM Essensial
                   </NavigationMenuLink>
                 </Link>
                 <Link href="/inovasi" className="rounded w-full">

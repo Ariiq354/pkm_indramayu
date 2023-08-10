@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/card";
 import Image from "next/image";
 
-export default function Inovasi() {
+export default function Pengembangan() {
   return (
     <>
       <div className="bg-red-100 bg-opacity-60">
@@ -32,9 +32,6 @@ export default function Inovasi() {
                 <CardTitle>Kesehatan Lansia</CardTitle>
                 <CardDescription>LAYANAN UKM PENGEMBANGAN</CardDescription>
               </CardHeader>
-              <CardContent>
-                <p>Senin - Sabtu</p>
-              </CardContent>
             </Card>
 
             <Card>
@@ -49,9 +46,6 @@ export default function Inovasi() {
                 <CardTitle>Perkesmas</CardTitle>
                 <CardDescription>LAYANAN UKM PENGEMBANGAN</CardDescription>
               </CardHeader>
-              <CardContent>
-                <p>Senin - Sabtu</p>
-              </CardContent>
             </Card>
 
             <Card>
@@ -66,32 +60,26 @@ export default function Inovasi() {
                 <CardTitle>Kesehatan Sekolah</CardTitle>
                 <CardDescription>LAYANAN UKM PENGEMBANGAN</CardDescription>
               </CardHeader>
-              <CardContent>
-                <p>Senin - Sabtu</p>
-              </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
                 <Image
-                  src="/pengembangan/gigi_thumb.jpg"
+                  src="/pengembangan/gigi.jpg"
                   alt=""
                   width={300}
                   height={300}
                   className="rounded-md"
                 ></Image>
-                <CardTitle>Kesehatan Gigi & Mulut</CardTitle>
+                <CardTitle>Kesehatan Gigi Sekolah</CardTitle>
                 <CardDescription>LAYANAN UKM PENGEMBANGAN</CardDescription>
               </CardHeader>
-              <CardContent>
-                <p>Senin - Sabtu</p>
-              </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
                 <Image
-                  src="/pengembangan/indera_thumb.jpg"
+                  src="/pengembangan/indera.jpeg"
                   alt=""
                   width={300}
                   height={300}
@@ -100,9 +88,6 @@ export default function Inovasi() {
                 <CardTitle>Kesehatan Indera</CardTitle>
                 <CardDescription>LAYANAN UKM PENGEMBANGAN</CardDescription>
               </CardHeader>
-              <CardContent>
-                <p>Senin - Sabtu</p>
-              </CardContent>
             </Card>
           </div>
         </div>
