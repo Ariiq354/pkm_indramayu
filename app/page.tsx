@@ -173,7 +173,7 @@ export default function Home() {
                       Pelayanan Rawat Jalan
                     </h1>
                     Pemeriksaan Umum: Senin - Sabtu <br />
-                    Kesehatan Gigi dan Mulut: Senin - Kamis <br />
+                    Pemeriksaan Kesehatan Gigi & Mulut: Senin - Kamis <br />
                     Pemeriksaan MTBS: Senin - Sabtu <br />
                   </div>
                 </div>
