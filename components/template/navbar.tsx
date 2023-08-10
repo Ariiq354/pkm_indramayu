@@ -59,12 +59,12 @@ export default function Navbar() {
               <ul className="p-2 w-[250px] grid">
                 <Link href="/pelayanan24" className="rounded w-full">
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Pelayanan 24 Jam
+                    Pelayanan UKPP
                   </NavigationMenuLink>
                 </Link>
                 <Link href="/pengembangan" className="rounded w-full">
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Pelayanan Pengembangan
+                    Pelayanan UKM Pengembangan
                   </NavigationMenuLink>
                 </Link>
                 <Link href="/esensial" className="rounded w-full">

@@ -14,7 +14,8 @@ export default function Pelayanan24() {
       <div className="bg-red-100 bg-opacity-60">
         <div className="w-full h-[40vh] image bg-cover px-24">
           <h1 className="md:text-6xl text-4xl font-bold h-full flex md:justify-start justify-center items-center text-center text-red-900">
-            Pelayanan Puskesmas
+            Pelayanan Upaya Kesehatan Perseorangan (UKP), Layanan Kefarmasian,
+            Laboratorium
           </h1>
         </div>
         <div className="w-full flex justify-center py-10">
@@ -283,7 +284,9 @@ export default function Pelayanan24() {
                   height={300}
                   className="rounded-md"
                 ></Image>
-                <CardTitle>Layanan Gawat Darurat 24 Jam</CardTitle>
+                <CardTitle>
+                  Layanan Gawat Darurat dan Persalinan 24 Jam
+                </CardTitle>
                 <CardDescription>LAYANAN AMBULANCE</CardDescription>
               </CardHeader>
               <CardContent>

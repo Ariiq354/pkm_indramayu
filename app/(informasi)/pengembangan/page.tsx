@@ -14,7 +14,7 @@ export default function Inovasi() {
       <div className="bg-red-100 bg-opacity-60">
         <div className="w-full h-[40vh] image bg-cover px-24">
           <h1 className="md:text-6xl text-4xl font-bold h-full flex md:justify-start justify-center items-center text-center text-red-900">
-            Layanan Pengembangan
+            Pelayanan Usaha Kesehatan Masyarakat (UKM) Pengembangan
           </h1>
         </div>
 
@@ -23,14 +23,14 @@ export default function Inovasi() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/pengembangan/lansia_thumb.png"
+                  src="/pengembangan/lansia.jpg"
                   alt=""
                   width={300}
                   height={300}
                   className="rounded-md"
                 ></Image>
                 <CardTitle>Kesehatan Lansia</CardTitle>
-                <CardDescription>LAYANAN RAWAT JALAN</CardDescription>
+                <CardDescription>LAYANAN UKM PENGEMBANGAN</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>Senin - Sabtu</p>
@@ -40,14 +40,14 @@ export default function Inovasi() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/pengembangan/umum_thumb.jpg"
+                  src="/pengembangan/perkesmas.jpg"
                   alt=""
                   width={300}
                   height={300}
                   className="rounded-md"
                 ></Image>
-                <CardTitle>Kesehatan Perkesmas</CardTitle>
-                <CardDescription>LAYANAN RAWAT JALAN</CardDescription>
+                <CardTitle>Perkesmas</CardTitle>
+                <CardDescription>LAYANAN UKM PENGEMBANGAN</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>Senin - Sabtu</p>
@@ -64,7 +64,7 @@ export default function Inovasi() {
                   className="rounded-md"
                 ></Image>
                 <CardTitle>Kesehatan Sekolah</CardTitle>
-                <CardDescription>LAYANAN RAWAT JALAN</CardDescription>
+                <CardDescription>LAYANAN UKM PENGEMBANGAN</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>Senin - Sabtu</p>
@@ -81,7 +81,7 @@ export default function Inovasi() {
                   className="rounded-md"
                 ></Image>
                 <CardTitle>Kesehatan Gigi & Mulut</CardTitle>
-                <CardDescription>LAYANAN RAWAT JALAN</CardDescription>
+                <CardDescription>LAYANAN UKM PENGEMBANGAN</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>Senin - Sabtu</p>
@@ -98,7 +98,7 @@ export default function Inovasi() {
                   className="rounded-md"
                 ></Image>
                 <CardTitle>Kesehatan Indera</CardTitle>
-                <CardDescription>LAYANAN RAWAT JALAN</CardDescription>
+                <CardDescription>LAYANAN UKM PENGEMBANGAN</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>Senin - Sabtu</p>
