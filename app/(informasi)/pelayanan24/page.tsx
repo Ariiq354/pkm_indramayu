@@ -62,7 +62,7 @@ export default function Pelayanan24() {
                   height={300}
                   className="rounded-md"
                 ></Image>
-                <CardTitle>Layanan Bayi-Balita</CardTitle>
+                <CardTitle>Layanan Bayi-Balita (MTBS)</CardTitle>
                 <CardDescription>LAYANAN RAWAT JALAN</CardDescription>
               </CardHeader>
               <CardContent>
@@ -79,7 +79,7 @@ export default function Pelayanan24() {
                   height={300}
                   className="rounded-md"
                 ></Image>
-                <CardTitle>Layanan Usia Lanjut</CardTitle>
+                <CardTitle>Layanan Usia Lanjut (Lansia)</CardTitle>
                 <CardDescription>LAYANAN RAWAT JALAN</CardDescription>
               </CardHeader>
               <CardContent>
@@ -107,7 +107,7 @@ export default function Pelayanan24() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/pelayanan24/kia_thumb.jpg"
+                  src="/pelayanan24/kb2.jpg"
                   alt=""
                   width={300}
                   height={300}
