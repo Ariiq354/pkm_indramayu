@@ -17,6 +17,13 @@ export default function Inovasi() {
           className="w-[70%] h-auto"
         ></Image>
         <Image
+          src="/inovasi/kebuli2.jpeg"
+          alt=""
+          width={1000}
+          height={1000}
+          className="w-[70%] h-auto"
+        ></Image>
+        <Image
           src="/inovasi/kebuli.jpeg"
           alt=""
           width={1000}
