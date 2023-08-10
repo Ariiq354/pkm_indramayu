@@ -8,12 +8,19 @@ export default function Inovasi() {
           Inovasi Puskesmas
         </h1>
       </div>
-      <div className="container flex justify-center my-6">
+      <div className="container flex flex-wrap justify-center my-6 gap-2">
         <Image
           src="/inovasi/inovasi.jpg"
           alt=""
-          width={1000}
-          height={1000}
+          width={500}
+          height={500}
+          className="w-auto h-auto"
+        ></Image>
+        <Image
+          src="/inovasi/kebuli.jpeg"
+          alt=""
+          width={500}
+          height={500}
           className="w-auto h-auto"
         ></Image>
       </div>
