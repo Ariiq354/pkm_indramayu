@@ -78,7 +78,7 @@ export default function Home() {
           </div>
           <div className="bg-red-200 text-red-600 flex-col flex p-12 font-bold">
             <div className="font-bold mb-4 text-2xl">Jam Pelayanan</div>
-            <div className="flex justify-between border-red-600 border-b-2 text-lg">
+            <div className="flex gap-1 justify-between border-red-600 border-b-2 text-lg">
               <div>Senin – Kamis</div>
               <div>07.30 -14.00 WIB</div>
             </div>
