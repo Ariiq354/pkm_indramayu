@@ -205,7 +205,7 @@ export default function Home() {
 
                 <a href="/pelayanan24">
                   <Button className="transition-all bg-red-500 hover:translate-y-[-0.5rem] hover:bg-red-600 p-5 w-full md:w-[60%] font-bold mt-10 lg:mt-14 flex">
-                    Jadwal Pelayanan Lainnya
+                    Jadwal Lengkap Pelayanan
                   </Button>
                 </a>
               </div>
