@@ -12,16 +12,16 @@ export default function Inovasi() {
         <Image
           src="/inovasi/inovasi.jpg"
           alt=""
-          width={500}
-          height={500}
-          className="w-auto h-auto"
+          width={1000}
+          height={1000}
+          className="w-[70%] h-auto"
         ></Image>
         <Image
           src="/inovasi/kebuli.jpeg"
           alt=""
-          width={500}
-          height={500}
-          className="w-auto h-auto"
+          width={1000}
+          height={1000}
+          className="w-[70%] h-auto"
         ></Image>
       </div>
     </>
