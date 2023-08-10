@@ -39,41 +39,45 @@ export default function page() {
                 Misi
               </h1>
               <table className="text-red-500 text-base md:text-md lg:text-md mt-4 list-decimal list-inside">
-                <tr className="mb-4">
-                  <td className="w-min">1. MISI PERTAMA</td>
-                  <td>:</td>
-                  <td>&nbsp;Perwujudan Reformasi Birokrasi</td>
-                </tr>
-                <tr className="mb-4">
-                  <td className="">2. MISI KEDUA</td>
-                  <td>:</td>
-                  <td>&nbsp;Fasilitasi Kehidupan Beragama dan Bermasyarakat</td>
-                </tr>
-                <tr className="mb-4">
-                  <td className="">3. MISI KETIGA</td>
-                  <td>:</td>
-                  <td>&nbsp;Peningkatan Kesejahtraan</td>
-                </tr>
-                <tr className="mb-4">
-                  <td>4. MISI KEEMPAT</td>
-                  <td>:</td>
-                  <td>&nbsp;Penanggulangan Kemiskinan</td>
-                </tr>
-                <tr className="mb-4">
-                  <td>5. MISI KELIMA</td>
-                  <td>:</td>
-                  <td>&nbsp;Peningkatan Daya Saing SDM</td>
-                </tr>
-                <tr className="mb-4">
-                  <td>6. MISI KEENAM</td>
-                  <td>:</td>
-                  <td>&nbsp;Peningkatan Infrastruktur</td>
-                </tr>
-                <tr className="mb-4">
-                  <td>7. MISI KETUJUH</td>
-                  <td>:</td>
-                  <td>&nbsp;Peningkatan Ekonomi dan Daya Saing Daerah</td>
-                </tr>
+                <tbody>
+                  <tr className="mb-4">
+                    <td className="w-[30%]">1. MISI PERTAMA</td>
+                    <td>:</td>
+                    <td>&nbsp;Perwujudan Reformasi Birokrasi</td>
+                  </tr>
+                  <tr className="mb-4">
+                    <td className="">2. MISI KEDUA</td>
+                    <td>:</td>
+                    <td>
+                      &nbsp;Fasilitasi Kehidupan Beragama dan Bermasyarakat
+                    </td>
+                  </tr>
+                  <tr className="mb-4">
+                    <td className="">3. MISI KETIGA</td>
+                    <td>:</td>
+                    <td>&nbsp;Peningkatan Kesejahtraan</td>
+                  </tr>
+                  <tr className="mb-4">
+                    <td>4. MISI KEEMPAT</td>
+                    <td>:</td>
+                    <td>&nbsp;Penanggulangan Kemiskinan</td>
+                  </tr>
+                  <tr className="mb-4">
+                    <td>5. MISI KELIMA</td>
+                    <td>:</td>
+                    <td>&nbsp;Peningkatan Daya Saing SDM</td>
+                  </tr>
+                  <tr className="mb-4">
+                    <td>6. MISI KEENAM</td>
+                    <td>:</td>
+                    <td>&nbsp;Peningkatan Infrastruktur</td>
+                  </tr>
+                  <tr className="mb-4">
+                    <td>7. MISI KETUJUH</td>
+                    <td>:</td>
+                    <td>&nbsp;Peningkatan Ekonomi dan Daya Saing Daerah</td>
+                  </tr>
+                </tbody>
               </table>
             </div>
           </div>
