@@ -29,9 +29,8 @@ export default function page() {
                 Visi
               </h1>
               <p className="text-red-500 text-base md:text-md lg:text-xl mt-4">
-                &quot;Menjadikan Puskesmas dengan pelayanan prima menuju
-                Masyarakat yang BERMARTABAT (Bersih, Religius, Maju, Adil,
-                Makmur, Hebat).&quot;
+                &quot;Terwujudnya Indramayu BERMARTABAT (Bersih, Religius, Maju,
+                Adil, Makmur dan Hebat)&quot;
               </p>
             </div>
             <div className="lg:w-1/2 lg:pl-12 mt-12 lg:mt-0">
@@ -40,6 +39,11 @@ export default function page() {
               </h1>
               <table className="text-red-500 text-base md:text-md lg:text-md mt-4 list-decimal list-inside">
                 <tbody>
+                  <tr>
+                    <td colSpan={3} className="font-bold">
+                      Sapta Nata Mulia Jaya:
+                    </td>
+                  </tr>
                   <tr className="mb-4">
                     <td className="w-[30%]">1. MISI PERTAMA</td>
                     <td>:</td>

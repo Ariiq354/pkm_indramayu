@@ -117,16 +117,19 @@ export default function Home() {
                   </h1>
                   <p className="text-justify lg:text-lg py-10 md:py-15">
                     UPTD Puskesmas Kertasemaya adalah Unit Pelaksana Teknis
-                    Daerah Kabupaten Indramayu yang bertempat di Kecamatan
+                    Dinas Kabupaten Indramayu yang bertempat di Kecamatan
                     Kertasemaya, Jl. By Pass Tulungagung dengan wilayah kerja
-                    meliputi 13 desa, yaitu Desa Tulungagung, Kertasemaya,
-                    Kliwed, Sukawera, Jengkok, Lemah Ayu, Manguntara,
-                    Tegalwirangrong, Tenajar Kidul, Tenajar, Tenajar Lor, Jambe,
-                    dan Larangan Jambe. Pelayanan yang diberikan oleh kami
-                    adalah Pelayanan Rawat Jalan dalam Gedung dan Pelayanan Luar
-                    Gedung yang didukung oleh aparatur kewilayahan setempat.
-                    Kami selalu berupaya memberikan pelayanan prima dengan
-                    sepenuh hati bagi para pengguna layanan kami.
+                    meliputi 13 desa, yaitu{" "}
+                    <b>
+                      Desa Tulungagung, Desa Kertasemaya, Desa Kliwed, Desa
+                      Sukawera, Desa Jengkok, Desa Lemah Ayu, Desa Manguntara,
+                      Desa Tegalwirangrong, Desa Tenajar Kidul, Desa Tenajar,
+                      Desa Tenajar Lor, Desa Jambe, dan Desa Larangan Jambe.
+                    </b>{" "}
+                    Puskesmas kami adalah Puskesmas Perdesaan dan juga termasuk
+                    puskesmas non rawat inap. Kami selalu berupaya memberikan
+                    pelayanan prima dengan sepenuh hati bagi para pengguna
+                    layanan kami.
                   </p>
 
                   <a href="/profil">
@@ -191,11 +194,11 @@ export default function Home() {
                     <h1 className="font-bold text-xl">Lainnya</h1>
                     Laboratorium: Senin - Sabtu (Rabu di Pustu Tenajar)
                     <br />
-                    Tindakan UGD: 24 jam
+                    Farmasi: Senin - Sabtu
                     <br />
                     Persalinan: 24 jam
                     <br />
-                    Ambulance: 24 jam
+                    Tindakan / UGD: 24 jam
                     <br />
                   </div>
                 </div>
@@ -275,7 +278,7 @@ export default function Home() {
           <div className="bg-white shadow-md hover:bg-red-500 text-red-600 hover:text-white transition-all duration-500 rounded-md text-center w-[300px] px-6 py-8 hover:translate-y-[-0.5rem]">
             <div className="flex flex-col items-center justify-center gap-4">
               <FaUserNurse size="5rem" />
-              <p className="font-bold">Layanan Promosi Kesehatan</p>
+              <p className="font-bold">Layanan Vaksinasi</p>
             </div>
           </div>
         </div>
