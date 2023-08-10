@@ -124,7 +124,7 @@ export default function Pelayanan24() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/pelayanan24/kia_thumb.jpg"
+                  src="/pelayanan24/kia2.jpg"
                   alt=""
                   width={300}
                   height={300}
