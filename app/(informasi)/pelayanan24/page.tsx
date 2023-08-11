@@ -156,7 +156,7 @@ export default function Pelayanan24() {
               </CardContent>
             </Card>
 
-            <Card>
+            {/* <Card>
               <CardHeader>
                 <Image
                   src="/pelayanan24/gizi.png"
@@ -171,7 +171,7 @@ export default function Pelayanan24() {
               <CardContent>
                 <p>Sabtu</p>
               </CardContent>
-            </Card>
+            </Card> */}
 
             <Card>
               <CardHeader>
@@ -241,7 +241,7 @@ export default function Pelayanan24() {
               </CardContent>
             </Card>
 
-            <Card>
+            {/* <Card>
               <CardHeader>
                 <Image
                   src="/pelayanan24/rujukan.png"
@@ -256,7 +256,7 @@ export default function Pelayanan24() {
               <CardContent>
                 <p>Senin - Sabtu</p>
               </CardContent>
-            </Card>
+            </Card> */}
 
             <Card>
               <CardHeader>
