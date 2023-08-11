@@ -159,7 +159,7 @@ export default function Pelayanan24() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/pelayanan24/gizi_thumb.jpg"
+                  src="/pelayanan24/gizi.png"
                   alt=""
                   width={300}
                   height={300}
@@ -244,7 +244,7 @@ export default function Pelayanan24() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/pelayanan24/rujukan_thumb.jpg"
+                  src="/pelayanan24/rujukan.png"
                   alt=""
                   width={300}
                   height={300}
