@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="container flex flex-wrap md:justify-center justify-start p-4 gap-4">
           <div className="w-[48rem] ">
             <h3 className="text-white mb-4 font-bold text-3xl">
-              Puskesmas Kertasemaya
+              UPTD Puskesmas Kertasemaya
             </h3>
             <div className="d-flex flex-column justify-content-start text-justify">
               <p>
