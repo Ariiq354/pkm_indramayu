@@ -117,16 +117,16 @@ export default function Navbar() {
               <MenubarSubTrigger>Informasi</MenubarSubTrigger>
               <MenubarSubContent>
                 <Link href="/pelayanan24" passHref>
-                  <MenubarItem>Pelayanan 24 Jam</MenubarItem>
+                  <MenubarItem>Pelayanan UKPP</MenubarItem>
                 </Link>
                 <Link href="/esensial" passHref>
-                  <MenubarItem>Pelayanan Esensial</MenubarItem>
+                  <MenubarItem>Pelayanan UKM Essensial</MenubarItem>
                 </Link>
                 <Link href="/pengembangan" passHref>
-                  <MenubarItem>Pelayanan Pengembangan</MenubarItem>
+                  <MenubarItem>Pelayanan UKM Pengembangan</MenubarItem>
                 </Link>
                 <Link href="/inovasi" passHref>
-                  <MenubarItem>Inovasi</MenubarItem>
+                  <MenubarItem>Inovasi Puskesmas</MenubarItem>
                 </Link>
               </MenubarSubContent>
             </MenubarSub>

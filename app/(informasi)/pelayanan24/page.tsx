@@ -13,7 +13,7 @@ export default function Pelayanan24() {
     <>
       <div className="bg-red-100 bg-opacity-60">
         <div className="w-full h-[40vh] image bg-cover px-24">
-          <h1 className="md:text-6xl text-4xl font-bold h-full flex md:justify-start justify-center items-center text-center text-red-900">
+          <h1 className="text-4xl md:text-6xl font-bold h-full flex md:justify-start justify-center items-center text-center text-red-900">
             Pelayanan Upaya Kesehatan Perseorangan (UKP), Layanan Kefarmasian,
             Laboratorium
           </h1>
@@ -271,7 +271,7 @@ export default function Pelayanan24() {
                 <CardDescription>LAYANAN AMBULANCE</CardDescription>
               </CardHeader>
               <CardContent>
-                <p>Sabtu</p>
+                <p>Setiap Hari</p>
               </CardContent>
             </Card>
 
@@ -290,7 +290,7 @@ export default function Pelayanan24() {
                 <CardDescription>LAYANAN AMBULANCE</CardDescription>
               </CardHeader>
               <CardContent>
-                <p>Sabtu</p>
+                <p>Setiap Hari</p>
               </CardContent>
             </Card>
           </div>
