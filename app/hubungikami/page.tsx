@@ -155,7 +155,7 @@ const HubungiKami = () => {
               value={"false"}
               style={{ display: "none" }}
             ></input>
-            <input type="hidden" name="_next" value="http://localhost:3000/hubungikami/success"></input>
+            <input type="hidden" name="_next" value="https://pkmkertasemaya.com/hubungikami/success"></input>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-[1%] md:gap-8">
               <div className="w-full flex gap-0 md:gap-4 flex-col justify-center my-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-4  ">
