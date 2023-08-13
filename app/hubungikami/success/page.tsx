@@ -1,7 +1,7 @@
 export default function page() {
     return (
         <>
-            <div className="flex items-center justify-center h-96 my-10 px-10">
+            <div className="flex justify-center h-screen pt-28 lg:pt-40 px-10">
                 <div>
                     <div className="flex flex-col items-center space-y-2 text-center">
                         <svg xmlns="http://www.w3.org/2000/svg" className="text-green-600 w-28 h-28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
