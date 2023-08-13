@@ -140,7 +140,7 @@ const HubungiKami = () => {
 
         <Form {...form}>
           <form
-            action="https://formsubmit.co/puskes.kertasemaya+formsubmit@gmail.com"
+            action="https://formsubmit.co/jonatansiboro+formsubmit@gmail.com"
             method="POST"
           // onSubmit={form.handleSubmit(onSubmit)}
           >
