@@ -140,9 +140,9 @@ const HubungiKami = () => {
 
         <Form {...form}>
           <form
-            action="https://formsubmit.co/puskes.kertasemaya+formsubmit@gmail.com"
+            action="https://formsubmit.co/rifqihalzibrahmuhammad@gmail.com"
             method="POST"
-            // onSubmit={form.handleSubmit(onSubmit)}
+          // onSubmit={form.handleSubmit(onSubmit)}
           >
             <input
               type="text"
@@ -155,6 +155,7 @@ const HubungiKami = () => {
               value={"false"}
               style={{ display: "none" }}
             ></input>
+            <input type="hidden" name="_next" value="/hubungikami/success" />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-[1%] md:gap-8">
               <div className="w-full flex gap-0 md:gap-4 flex-col justify-center my-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-4  ">
